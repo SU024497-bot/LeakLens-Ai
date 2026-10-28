@@ -28,6 +28,7 @@ The entire engine operates **100% locally** on your machine—without external L
 | Component | Technology | Verified Version |
 | :--- | :--- | :--- |
 | **Operating System** | Windows (PowerShell / Command Prompt) | Windows 10/11 x64 |
+| **Streamlit Entrypoint**| Streamlit Application (`app.py`) | Streamlit 1.66.1+ |
 | **Backend Runtime** | Python | 3.14.7 |
 | **Web Framework** | FastAPI + Uvicorn | FastAPI 0.115+, Uvicorn 0.30+ |
 | **Data Processing** | Pandas, NumPy, openpyxl | Pandas 2.2+, NumPy 1.26+, openpyxl 3.1.5 |
@@ -38,6 +39,38 @@ The entire engine operates **100% locally** on your machine—without external L
 | **Styling** | Tailwind CSS + Custom PostCSS | Tailwind CSS 3.4.15 |
 | **Icons & Visuals** | Lucide React | Lucide React 0.460+ |
 | **Frontend Testing**| Vitest + Happy-DOM | Vitest 2.1.9, Happy-DOM 15+ |
+
+---
+
+## 3. Streamlit Cloud Ready Entrypoint (`app.py`)
+
+LeakLens AI includes a **Streamlit application entry point** (`app.py`) ready for immediate one-click deployment on **Streamlit Community Cloud**:
+
+- **Main File Path:** `app.py`
+- **Root Dependencies:** `requirements.txt`
+- **Brand Theme:** `.streamlit/config.toml` (Midnight Indigo `#282B4A` & Vanilla `#EEEBDA`)
+- **Dual Engine Interface:**
+  1. **🔐 Secret & Credential Scanner:** Upload source files or `.zip` repositories to detect exposed API keys, tokens, AWS credentials, and cryptographic keys with guaranteed value redaction (`sk_****abcd`). Includes Zip-Slip path traversal protection.
+  2. **📊 Dataset & ML Data-Leakage Auditor:** Direct integration with the existing Python audit engine for tabular quality checks, target replicas, post-outcome lookahead, and correlation analysis.
+  3. **ℹ️ Security Specifications & Rule Catalog:** Full documentation of regex patterns, Shannon entropy thresholds, and remediation guides.
+
+### How to Run Streamlit Locally:
+```bash
+streamlit run app.py
+```
+*(The Streamlit interface opens at `http://localhost:8501`)*
+
+### How to Deploy on Streamlit Community Cloud:
+1. Push your repository to GitHub.
+2. Sign in to [share.streamlit.io](https://share.streamlit.io).
+3. Click **"New app"**.
+4. Select your repository and branch (`main`).
+5. Set **Main file path** to:
+   ```text
+   app.py
+   ```
+6. (Optional) In Advanced Settings, add variables from `.streamlit/secrets.toml.example` if required.
+7. Click **"Deploy!"**. Streamlit will automatically read `requirements.txt` and launch the application.
 
 ---
 
