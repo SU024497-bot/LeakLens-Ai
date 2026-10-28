@@ -1,0 +1,101 @@
+customer_id,tenure_months,monthly_charges,contract_type,tech_support,paperless_billing,churn
+CUST-1000,52,84.19,Two year,Yes,Yes,0
+CUST-1001,15,88.47,Two year,No,Yes,0
+CUST-1002,61,70.51,One year,Yes,No,0
+CUST-1003,21,89.39,Month-to-month,Yes,Yes,0
+CUST-1004,24,64.44,Month-to-month,No,No,0
+CUST-1005,3,67.05,One year,No,No,0
+CUST-1006,22,58.48,Two year,Yes,Yes,0
+CUST-1007,53,22.29,Two year,No,No,1
+CUST-1008,2,29.71,One year,Yes,No,1
+CUST-1009,30,22.83,One year,Yes,Yes,0
+CUST-1010,38,77.28,Month-to-month,No,No,0
+CUST-1011,2,48.29,Month-to-month,No,Yes,0
+CUST-1012,64,65.77,Two year,No,No,1
+CUST-1013,60,101.68,One year,No,Yes,0
+CUST-1014,21,42.44,Month-to-month,No,No,0
+CUST-1015,33,56.93,Month-to-month,No,Yes,1
+CUST-1016,58,88.0,One year,Yes,Yes,1
+CUST-1017,22,40.59,Month-to-month,No,No,1
+CUST-1018,49,26.93,Month-to-month,Yes,Yes,0
+CUST-1019,59,46.08,One year,No,Yes,0
+CUST-1020,42,34.51,One year,Yes,No,0
+CUST-1021,60,103.67,One year,Yes,No,1
+CUST-1022,15,92.73,Month-to-month,No,Yes,1
+CUST-1023,62,77.01,One year,No,No,0
+CUST-1024,62,98.43,Month-to-month,No,Yes,0
+CUST-1025,47,92.33,Month-to-month,No,Yes,0
+CUST-1026,62,36.79,One year,Yes,Yes,1
+CUST-1027,51,100.33,One year,Yes,No,1
+CUST-1028,55,68.54,Two year,Yes,No,0
+CUST-1029,64,92.67,One year,No,No,0
+CUST-1030,3,100.65,One year,No,No,0
+CUST-1031,51,48.62,Month-to-month,No,Yes,1
+CUST-1032,7,29.9,Month-to-month,Yes,Yes,1
+CUST-1033,21,40.51,Month-to-month,No,Yes,1
+CUST-1034,39,58.44,Month-to-month,No,Yes,0
+CUST-1035,18,93.62,Two year,No,Yes,0
+CUST-1036,4,97.47,Month-to-month,No,No,0
+CUST-1037,60,20.63,Two year,No,Yes,0
+CUST-1038,14,65.97,One year,Yes,Yes,1
+CUST-1039,9,57.57,One year,Yes,Yes,1
+CUST-1040,53,39.99,One year,No,No,1
+CUST-1041,2,30.79,One year,Yes,No,1
+CUST-1042,60,50.39,Month-to-month,Yes,Yes,0
+CUST-1043,71,104.86,Month-to-month,Yes,Yes,1
+CUST-1044,44,49.09,One year,Yes,No,1
+CUST-1045,8,66.69,Month-to-month,No,Yes,1
+CUST-1046,47,83.27,Month-to-month,No,No,0
+CUST-1047,35,52.73,One year,No,No,0
+CUST-1048,36,107.46,Month-to-month,Yes,Yes,0
+CUST-1049,50,106.62,Two year,No,Yes,1
+CUST-1050,4,42.66,Two year,No,No,0
+CUST-1051,2,64.75,Two year,Yes,Yes,0
+CUST-1052,6,47.08,Month-to-month,No,Yes,0
+CUST-1053,54,45.64,Month-to-month,Yes,No,0
+CUST-1054,4,23.32,Two year,No,No,0
+CUST-1055,54,74.86,Month-to-month,No,No,0
+CUST-1056,63,65.24,Two year,Yes,No,0
+CUST-1057,18,24.63,Two year,Yes,Yes,0
+CUST-1058,44,45.08,Two year,No,Yes,1
+CUST-1059,34,101.74,Month-to-month,No,No,0
+CUST-1060,62,41.56,Month-to-month,No,Yes,1
+CUST-1061,14,33.04,Two year,No,Yes,0
+CUST-1062,48,64.05,Month-to-month,Yes,No,0
+CUST-1063,15,108.71,Month-to-month,Yes,Yes,1
+CUST-1064,62,41.78,One year,No,Yes,0
+CUST-1065,40,80.49,Two year,Yes,Yes,0
+CUST-1066,53,88.55,One year,No,Yes,0
+CUST-1067,24,41.39,One year,No,Yes,1
+CUST-1068,26,85.54,Month-to-month,No,Yes,0
+CUST-1069,60,53.1,One year,Yes,Yes,0
+CUST-1070,41,76.91,Two year,No,No,0
+CUST-1071,29,77.02,Month-to-month,No,No,0
+CUST-1072,15,68.22,One year,No,Yes,0
+CUST-1073,45,28.13,Two year,No,No,0
+CUST-1074,65,95.18,One year,Yes,Yes,0
+CUST-1075,71,48.87,One year,No,Yes,0
+CUST-1076,9,36.79,One year,No,No,0
+CUST-1077,1,23.67,Month-to-month,Yes,Yes,1
+CUST-1078,8,73.18,Month-to-month,Yes,No,0
+CUST-1079,63,80.98,Two year,Yes,Yes,0
+CUST-1080,11,21.49,Two year,Yes,No,1
+CUST-1081,8,66.09,Two year,Yes,Yes,0
+CUST-1082,35,40.38,Two year,No,No,0
+CUST-1083,35,78.07,One year,Yes,Yes,1
+CUST-1084,33,35.69,One year,Yes,No,1
+CUST-1085,5,82.18,One year,No,Yes,0
+CUST-1086,41,54.81,One year,Yes,Yes,1
+CUST-1087,28,104.31,One year,No,No,0
+CUST-1088,7,32.38,One year,Yes,Yes,0
+CUST-1089,12,50.7,Two year,Yes,No,0
+CUST-1090,34,30.21,Month-to-month,No,No,1
+CUST-1091,33,103.22,Month-to-month,No,Yes,0
+CUST-1092,48,98.96,Month-to-month,No,No,0
+CUST-1093,23,43.21,One year,No,Yes,0
+CUST-1094,62,79.4,Month-to-month,No,No,0
+CUST-1095,37,93.55,Month-to-month,Yes,Yes,0
+CUST-1096,44,69.97,One year,Yes,Yes,0
+CUST-1097,35,67.67,Month-to-month,No,No,0
+CUST-1098,65,41.77,One year,No,No,0
+CUST-1099,47,28.38,Month-to-month,No,Yes,0
